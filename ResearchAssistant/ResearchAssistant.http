@@ -1,0 +1,6 @@
+@ResearchAssistant_HostAddress = http://localhost:5283
+
+GET {{ResearchAssistant_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

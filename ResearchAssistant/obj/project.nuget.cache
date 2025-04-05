@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "aiGFWr+4+wU=",
+  "success": true,
+  "projectFilePath": "/home/user-razvan/an3/dotnet2/ResearchAssistant/ResearchAssistant/ResearchAssistant.csproj",
+  "expectedPackageFiles": [
+    "/home/user-razvan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.0/microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/microsoft.extensions.ai.abstractions/9.3.0-preview.1.25161.3/microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/ollamasharp/5.1.9/ollamasharp.5.1.9.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/pdfpig/0.1.10/pdfpig.0.1.10.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/swashbuckle.aspnetcore/8.1.0/swashbuckle.aspnetcore.8.1.0.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.0/swashbuckle.aspnetcore.swagger.8.1.0.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.0/swashbuckle.aspnetcore.swaggergen.8.1.0.nupkg.sha512",
+    "/home/user-razvan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.0/swashbuckle.aspnetcore.swaggerui.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
