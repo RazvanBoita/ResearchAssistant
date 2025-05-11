@@ -1,4 +1,7 @@
+using ResearchAssistant.Features.Insights;
 using ResearchAssistant.Features.PdfParsing;
+using ResearchAssistant.Features.PdfParsing.PdfPig;
+using ResearchAssistant.Features.PdfParsing.Text7;
 using ResearchAssistant.Features.Summarize;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,8 +13,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddScoped<PdfParser>();
 builder.Services.AddScoped<PdfParsingHandler>();
-builder.Services.AddScoped<SummarizationService>();
 builder.Services.AddScoped<ChunkingService>();
+builder.Services.AddScoped<TextSevenPdfService>();
+builder.Services.AddScoped<SummaryService>();
+builder.Services.AddScoped<InsightService>();
 
 builder.Services.AddCors(options =>
 {

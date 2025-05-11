@@ -61,6 +61,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             }
           },
           "imports": [

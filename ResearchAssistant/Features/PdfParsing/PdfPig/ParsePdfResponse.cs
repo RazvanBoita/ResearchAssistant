@@ -1,4 +1,4 @@
-namespace ResearchAssistant.Features.PdfParsing;
+namespace ResearchAssistant.Features.PdfParsing.PdfPig;
 
 public class ParsePdfResponse
 {

@@ -1,8 +1,6 @@
-using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using ResearchAssistant.Features.Summarize;
 
-namespace ResearchAssistant.Features.PdfParsing;
+namespace ResearchAssistant.Features.PdfParsing.PdfPig;
 
 [ApiController]
 [Route("api/pdf")]
@@ -16,7 +14,7 @@ public class PdfParsingController : ControllerBase
     }
     
     
-    [HttpPost("parse")]
+    [HttpPost("parse/pig")]
     [ProducesResponseType(typeof(ParsePdfResponse), StatusCodes.Status200OK)]
     public ActionResult<ParsePdfResponse> ParsePdf([FromForm] IFormFile file)
     {

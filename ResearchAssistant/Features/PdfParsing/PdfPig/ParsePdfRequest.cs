@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ResearchAssistant.Features.PdfParsing;
+namespace ResearchAssistant.Features.PdfParsing.PdfPig;
 
 public class ParsePdfRequest
 {

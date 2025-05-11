@@ -1,6 +1,6 @@
 using UglyToad.PdfPig;
 
-namespace ResearchAssistant.Features.PdfParsing;
+namespace ResearchAssistant.Features.PdfParsing.PdfPig;
 
 public class PdfParser
 {
